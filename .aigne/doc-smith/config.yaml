@@ -1,0 +1,13 @@
+workspaceVersion: "1.0"
+createdAt: "2026-03-17T10:00:00Z"
+projectName: "heretic"
+projectDesc: "Fully automatic censorship removal for language models"
+locale: "en"
+projectLogo: ""
+translateLanguages: []
+sources:
+  - type: local-path
+    path: "../../"
+    url: "https://github.com/p-e-w/heretic"
+    branch: "master"
+    commit: ""

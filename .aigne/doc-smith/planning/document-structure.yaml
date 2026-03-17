@@ -1,0 +1,29 @@
+project:
+  title: "Heretic"
+  description: "Fully automatic censorship removal for language models"
+documents:
+  - title: "Overview"
+    description: "What Heretic is, how it works at a high level, and key results"
+    path: "/overview"
+    sourcePaths: ["README.md", "src/heretic/main.py"]
+    icon: "lucide:book-open"
+  - title: "Getting Started"
+    description: "Installation, prerequisites, and first decensoring run"
+    path: "/getting-started"
+    sourcePaths: ["README.md", "pyproject.toml", "src/heretic/main.py"]
+    icon: "lucide:rocket"
+  - title: "How It Works"
+    description: "Technical deep dive into directional ablation, TPE optimization, and LoRA-based weight modification"
+    path: "/how-it-works"
+    sourcePaths: ["README.md", "src/heretic/model.py", "src/heretic/evaluator.py", "src/heretic/main.py"]
+    icon: "lucide:cpu"
+  - title: "Configuration Reference"
+    description: "Complete reference for all CLI options, config file parameters, and environment variables"
+    path: "/configuration"
+    sourcePaths: ["config.default.toml", "src/heretic/config.py"]
+    icon: "lucide:settings"
+  - title: "Research Features"
+    description: "Using residual vector plots, geometry analysis, and model evaluation for interpretability research"
+    path: "/research-features"
+    sourcePaths: ["src/heretic/analyzer.py", "README.md", "config.default.toml"]
+    icon: "lucide:microscope"
