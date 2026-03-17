@@ -1,13 +1,15 @@
-workspaceVersion: "1.0"
-createdAt: "2026-03-17T10:00:00Z"
-projectName: "heretic"
-projectDesc: "Fully automatic censorship removal for language models"
-locale: "en"
-projectLogo: ""
-translateLanguages: ["zh"]
+workspaceVersion: '1.0'
+createdAt: '2026-03-17T10:00:00Z'
+projectName: heretic
+projectDesc: Fully automatic censorship removal for language models
+locale: en
+projectLogo: ''
+translateLanguages:
+  - zh
 sources:
   - type: local-path
-    path: "../../"
-    url: "https://github.com/p-e-w/heretic"
-    branch: "master"
-    commit: ""
+    path: ../../
+    url: https://github.com/p-e-w/heretic
+    branch: master
+    commit: ''
+appUrl: https://bhqax5fljlrw4fho3l7bx4p3v3k67v7airy75maiveq.docsmith.aigne.io/
