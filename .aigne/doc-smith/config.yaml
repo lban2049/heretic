@@ -4,7 +4,7 @@ projectName: "heretic"
 projectDesc: "Fully automatic censorship removal for language models"
 locale: "en"
 projectLogo: ""
-translateLanguages: []
+translateLanguages: ["zh"]
 sources:
   - type: local-path
     path: "../../"
